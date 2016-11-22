@@ -7,9 +7,17 @@
     <link rel="stylesheet" href="stylesheets/hopverkefni.css">
     <link rel="stylesheet" href="stylesheets/normalize.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 </head>
 <body>
-    <h1>Eggerts Skrá</h1>
+    /*<?php require 'includes/header.php'; ?>*/
+    <form action="includes/json_baeta.php" method="post">
+        <fieldset>
+            <p>JSON</p>
+            Nafn á orðtaki <input type="text" name="nafn" required><br>
+            Útskýring <input type="text" name="ljod" required><br>
+            Orðtak <input type="text" name="ljod" required><br>
+            <input type="submit">
+        </fieldset>  
+    </form>
 </body>
 </html>
