@@ -14,8 +14,8 @@
         <fieldset>
             <p>JSON</p>
             Nafn á orðtaki <input type="text" name="nafn" required><br>
-            Útskýring <input type="text" name="ljod" required><br>
-            Orðtak <input type="text" name="ljod" required><br>
+            Útskýring <input type="text" name="utskyra" required><br>
+            Orðtak <input type="text" name="ordtak" required><br>
             <input type="submit">
         </fieldset>  
     </form>
