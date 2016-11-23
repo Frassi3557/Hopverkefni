@@ -11,18 +11,18 @@
 
     // CREATE SOME NEW DATA TO APPEND TO THE komp ARRAY
     $new = new StdClass;
-    $new->title = $lysing2;
-    $new->img = $mynd2;
-    $new->img = $mynd2;
+    $new->title = $nafn;
+    $new->img = $utskyring;
+    $new->img = $ordtak;
 
     // INJECT SOME DATA INTO THE OBJECT
-    $obj->myndirArray[] = $new;
+    $obj->ordtokFylki[] = $new;
 
 
     // RENDER THE NEW JSON STRING
     //encode back to json for storage
     $final_obj = json_encode($obj);
-    file_put_contents('myndir.json', $final_obj);
+    file_put_contents('../ordtok/ordordtok.json', $final_obj);
 ?>
 <!DOCTYPE html>
 <html>
