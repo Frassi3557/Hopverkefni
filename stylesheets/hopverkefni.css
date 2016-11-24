@@ -3,6 +3,9 @@
 	text-decoration: none;
     font-family: 'Montserrat', sans-serif;
 }
+body{
+    background-color: darkblue;
+}
 .group {
 	background-color: #1c1c1c;
 	text-align: center;
@@ -10,7 +13,6 @@
 	margin: 0 auto;
 }
 .group h1 {
-	color: #fff;
 	padding-top: .5em;
 }
 .ordtak {
@@ -26,4 +28,17 @@
 }
 .daemi-text {
 	color: #408681;
+}
+textarea{
+    max-width: 80%;
+    min-width: 70%;
+    text-align: center;
+}
+input{
+    width: 80%;
+    text-align: center;
+}
+.sub{
+    width: 50%;
+    margin: 0 auto;
 }

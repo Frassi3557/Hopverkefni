@@ -16,14 +16,14 @@
 				<div class="utskyring">
 					<input type="text" name="utskyra" placeholder="Útskýring" required>
 				</div>
-				<input type="text" name="uppruni" placeholder="Uppruni" required>
+                <textarea rows="5" cols="40" name="uppruni" placeholder="Uppruni" required></textarea>
 				<div class="daemi">
 					<p class="daemi-text">Dæmi:</p>
 					<input type="text" name="daemi" placeholder="Dæmi" required>
 				</div>
 			</div>
 		</div>
-            <input type="submit">  
+            <input class="sub" type="submit">  
     </form>
 </body>
 </html>
