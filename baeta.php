@@ -9,13 +9,13 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 </head>
 <body>
-    /*<?php require 'includes/header.php'; ?>*/
     <form action="includes/json_baeta.php" method="post">
         <fieldset>
             <p>JSON</p>
-            Nafn á orðtaki <input type="text" name="nafn" required><br>
-            Útskýring <input type="text" name="utskyra" required><br>
             Orðtak <input type="text" name="ordtak" required><br>
+            Útskýring <input type="text" name="utskyra" required><br>
+            Uppruni <input type="text" name="uppruni" required><br>
+            Dæmi <input type="text" name="daemi" required><br>
             <input type="submit">
         </fieldset>  
     </form>

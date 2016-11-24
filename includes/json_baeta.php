@@ -1,7 +1,8 @@
 <?php
-    $nafn = $_POST['nafn'];
-    $utskyring = $_POST['utskyra'];
     $ordtak = $_POST['ordtak'];
+    $utskyring = $_POST['utskyra'];
+    $uppruni = $_POST['uppruni'];
+    $daemi = $_POST['daemi'];
     //get from file
     $jso = file_get_contents('../ordtok/ordordtok.json');
     //dceode object from file
@@ -11,9 +12,10 @@
 
     // CREATE SOME NEW DATA TO APPEND TO THE komp ARRAY
     $new = new StdClass;
-    $new->title = $nafn;
-    $new->img = $utskyring;
-    $new->img = $ordtak;
+    $new->ordtak = $ordtak;
+    $new->utskyring = $utskyring;
+    $new->uppruni = $uppruni;
+    $new->daemi = $daemi;
 
     // INJECT SOME DATA INTO THE OBJECT
     $obj->ordtokFylki[] = $new;
