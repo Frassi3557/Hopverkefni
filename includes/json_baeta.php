@@ -4,7 +4,7 @@
     $uppruni = $_POST['uppruni'];
     $daemi = $_POST['daemi'];
     //get from file
-    $jso = file_get_contents('../ordtok/ordordtok.json');
+    $jso = file_get_contents('../ordtok/orddtok.json');
     //dceode object from file
     $obj = json_decode($jso);
     //display error
