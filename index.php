@@ -7,7 +7,7 @@
   <body>
     <?php
       $string_json = file_get_contents('ordtok/ordtok.json');
-        json_ordtok = json_decode($string_json, true);
+        $json_ordtok = json_decode($string_json, true);
         for ($x = 0; $x <= count($json_ordtok['ordtokFylki'])-1; $x++):
     ?>
     <div class="group">
@@ -26,5 +26,6 @@
         </div>
       </div>
     </div>
+    <?php endfor; ?>
   </body>
 </html>
