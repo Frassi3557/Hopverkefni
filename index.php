@@ -16,13 +16,13 @@
       <div class="ordtak">
         <!-- Klasi sem heldur utan um útskýringuna á orðtakinu -->
         <div class="utskyring">
-          <p><?php ucfirst($json_ordtok['ordtokFylki'][$x]['utskyring']) ?></p>
+          <p><?php echo ucfirst($json_ordtok['ordtokFylki'][$x]['utskyring']) ?></p>
         </div>
-        <p><?php ucfirst($json_ordtok['ordtokFylki'][$x]['uppruni']) ?></p>
+        <p><?php echo ucfirst($json_ordtok['ordtokFylki'][$x]['uppruni']) ?></p>
         <!-- Klasi sem heldur utan um dæmið -->
         <div class="daemi">
           <p class="daemi-text">Dæmi:</p>
-          <p><?php ucfirst($json_ordtok['ordtokFylki'][$x]['daemi']) ?></p>
+          <p><?php echo ucfirst($json_ordtok['ordtokFylki'][$x]['daemi']) ?></p>
         </div>
       </div>
     </div>
