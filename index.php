@@ -4,6 +4,7 @@
     <title>title</title>
     <?php
       require($_SERVER['DOCUMENT_ROOT'] . "/2T/0506992429/hopverkefni/includes/head.php");
+      require($_SERVER['DOCUMENT_ROOT'] . "/2T/0506992429/hopverkefni/includes/header.php");
     ?>
   </head>
   <body>
