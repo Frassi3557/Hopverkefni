@@ -42,19 +42,34 @@ body {
 
 /*  Form  */
 
-textarea{
+textarea,
+input{
 	max-width: 80%;
 	min-width: 80%;
 	text-align: center;
+	border: 1px solid #1c1c1c;
+	background-color: #efefef;
 }
-input{
-  width: 80%;
-  text-align: center;
+h1 input {
+	border: 1px solid #fff;
+	background-color: #1c1c1c;
+	color: #fff;
 }
 .submit {
 		padding: 1em;
 }
 .sub{
-  width: 50%;
+  max-width: 50%;
+  min-width: 50%;
   margin: 0 auto;
+	border: none;
+	border-radius: 2px;
+	background-color: #28a89f;
+	color: #fff;
+	font-size: 1.5em;
+	font-family: 'Open Sans', sans-serif;
+	font-variant: small-caps;
+}
+.sub:hover {
+	background-color: #62bfb9;
 }

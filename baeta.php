@@ -19,7 +19,7 @@
         <input type="text" name="daemi" placeholder="Dæmi" required>
       </div>
 			<div class="submit">
-				<input class="sub" type="submit">  
+				<input class="sub" type="submit" value="staðfesta">  
 			</div>
     </div>
   </div>
