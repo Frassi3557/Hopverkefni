@@ -37,7 +37,7 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 </head>
 <body>
-    /*<?php require 'includes/header.php'; ?>*/
+    
     <h1>Þú hefur bætt við orðtaki</h1>
     <h2><a href="../index.php">Fara ftur heim.</a></h2>
 </body>
