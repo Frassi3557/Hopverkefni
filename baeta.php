@@ -18,9 +18,11 @@
         <p class="daemi-text">Dæmi:</p>
         <input type="text" name="daemi" placeholder="Dæmi" required>
       </div>
+			<div class="submit">
+				<input class="sub" type="submit">  
+			</div>
     </div>
   </div>
-  <input class="sub" type="submit">  
 </form>
 </body>
 </html>

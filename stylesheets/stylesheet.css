@@ -44,12 +44,15 @@ body {
 
 textarea{
 	max-width: 80%;
-	min-width: 70%;
+	min-width: 80%;
 	text-align: center;
 }
 input{
   width: 80%;
   text-align: center;
+}
+.submit {
+		padding: 1em;
 }
 .sub{
   width: 50%;
