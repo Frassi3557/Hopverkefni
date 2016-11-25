@@ -3,4 +3,4 @@
 <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css">
 <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css">
 <link rel="icon" href="http://www.tskoli.is/skin/basic9k/i/fav-large.png">
-<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:600" rel="stylesheet">
