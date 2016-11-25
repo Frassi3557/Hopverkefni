@@ -7,6 +7,7 @@
     ?>
   </head>
   <body>
+     <?php require($_SERVER['DOCUMENT_ROOT'] . "/2T/0506992429/hopverkefni/includes/header.php"); ?>
     <?php
       require($_SERVER['DOCUMENT_ROOT'] . "/2T/0506992429/hopverkefni/includes/header.php");
     ?>
