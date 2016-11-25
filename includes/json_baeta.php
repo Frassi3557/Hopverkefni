@@ -4,7 +4,7 @@
     $uppruni = $_POST['uppruni'];
     $daemi = $_POST['daemi'];
     //get from file
-    $jso = file_get_contents('../ordtok/orddtok.json');
+    $jso = file_get_contents('../ordtok/ordtok.json');
     //dceode object from file
     $obj = json_decode($jso);
     //display error
@@ -24,7 +24,7 @@
     // RENDER THE NEW JSON STRING
     //encode back to json for storage
     $final_obj = json_encode($obj);
-    file_put_contents('../ordtok/ordordtok.json', $final_obj);
+    file_put_contents('../ordtok/ordtok.json', $final_obj);
 ?>
 <!DOCTYPE html>
 <html>
