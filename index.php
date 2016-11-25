@@ -4,10 +4,12 @@
     <title>title</title>
     <?php
       require($_SERVER['DOCUMENT_ROOT'] . "/2T/0506992429/hopverkefni/includes/head.php");
-      require($_SERVER['DOCUMENT_ROOT'] . "/2T/0506992429/hopverkefni/includes/header.php");
     ?>
   </head>
   <body>
+    <?php
+      require($_SERVER['DOCUMENT_ROOT'] . "/2T/0506992429/hopverkefni/includes/header.php");
+    ?>
     <?php
       $string_json = file_get_contents('ordtok/ordtok.json');
         $json_ordtok = json_decode($string_json, true);
