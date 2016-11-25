@@ -13,6 +13,8 @@ body {
 	background-size: 100%;
 }
 
+/*  Orðtak  */
+
 .group {
 	background-color: #1c1c1c;
 	text-align: center;
@@ -36,4 +38,20 @@ body {
 }
 .daemi-text {
 	color: #408681;
+}
+
+/*  Form  */
+
+textarea{
+    max-width: 80%;
+    min-width: 70%;
+    text-align: center;
+}
+input{
+    width: 80%;
+    text-align: center;
+}
+.sub{
+    width: 50%;
+    margin: 0 auto;
 }
