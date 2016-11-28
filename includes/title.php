@@ -1,8 +1,12 @@
 <?php
 $title = basename($_SERVER['SCRIPT_FILENAME'], '.php');
-$title = str_replace('_', ' ', $title);
+
 if ($title == 'index') {
- $title = 'home';
+  $title = 'home';
 }
-$title = ucwords($title);
-?>
+if ($title == 'baeta') {
+  $title = 'bæta';
+}
+if ($title == 'baetamynd') {
+  $title = 'bæta';
+}
