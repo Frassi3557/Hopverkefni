@@ -25,20 +25,4 @@
     //encode back to json for storage
     $final_obj = json_encode($obj);
     file_put_contents('../ordtok/ordtok.json', $final_obj);
-?>
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Hópverkefni</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="stylesheets/hopverkefni.css">
-    <link rel="stylesheet" href="stylesheets/normalize.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-</head>
-<body>
-    
-    <h1>Þú hefur bætt við orðtaki</h1>
-    <h2><a href="../index.php">Fara ftur heim.</a></h2>
-</body>
-</html>
+    header('Location:http://tsuts.tskoli.is/2t/0506992429/hopverkefni/');
