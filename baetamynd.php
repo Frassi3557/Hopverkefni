@@ -3,7 +3,7 @@
 <html>
 <head>
     <?php require($_SERVER['DOCUMENT_ROOT'] . "/2t/1811992029/hopverkefni/includes/title.php"); ?>
-    <title>Hópverkefni - <?php echo "{$title}"; ?></title>
+    <title><?php echo "{$title}"; ?></title>
   <?php
       require($_SERVER['DOCUMENT_ROOT'] . "/2T/1811992029/hopverkefni/includes/head.php");
     ?>
