@@ -3,6 +3,7 @@
 	<nav>
 		<li><a href="index.php"<?php if ($currentPage == 'index.php') {echo 'id="here"';}?>>Orðtök</a></li>
         <li><a href="baeta.php"<?php if ($currentPage == 'baeta.php') {echo 'id="here"';}?>>Bæta við orðtaki</a></li>
+        <li><a href="myndir.php"<?php if ($currentPage == 'myndir.php') {echo 'id="here"';}?>>Myndir</a></li>
         <li><a href="baetamynd.php"<?php if ($currentPage == 'baetamynd.php') {echo 'id="here"';}?>>Bæta við mynd</a></li>
 	</nav>
 </div>
