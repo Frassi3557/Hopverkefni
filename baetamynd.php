@@ -2,27 +2,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-<<<<<<< HEAD
     <?php require($_SERVER['DOCUMENT_ROOT'] . "/2t/1811992029/hopverkefni/includes/title.php"); ?>
     <title><?php echo "{$title}"; ?></title>
-  <?php
-      require($_SERVER['DOCUMENT_ROOT'] . "/2T/1811992029/hopverkefni/includes/head.php");
-=======
-    <?php require($_SERVER['DOCUMENT_ROOT'] . "/2t/1811992029/hopverkefni/includes/title.php");
-          require($_SERVER['DOCUMENT_ROOT'] . "/2T/0506992429/hopverkefni/includes/head.php");
->>>>>>> bad688ec81dbf553d537aaceebf4dea4519c855a
+    <?php
+          require($_SERVER['DOCUMENT_ROOT'] . "/2T/1811992029/hopverkefni/includes/head.php");
     ?>
     <title><?php echo "{$title}"; ?></title>
 </head>
 <body>
-  <?php require($_SERVER['DOCUMENT_ROOT'] . "/2T/0506992429/hopverkefni/includes/header.php"); ?>
+  <?php require($_SERVER['DOCUMENT_ROOT'] . "/2T/1811992029/hopverkefni/includes/header.php"); ?>
     <div class="myndform">
         <h1>Endilega bættu við mynd í myndasafnið.</h1>
         <form action="process.php" method="post">
             <fieldset>
-                <label for="mname">Nafn á mynd</label>
-                <input type="text" id="mname" name="myndNafn" required>
-
                 <label for="url">URL á mynd</label>
                 <input type="text" id="url" name="url" required>
 

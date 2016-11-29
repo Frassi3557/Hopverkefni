@@ -52,6 +52,8 @@ nav li #here {
 	cursor: default;
 }
 
+  /* ********* Orðtök ********* */
+
 /*  Orðtak  */
 
 .group {
@@ -98,7 +100,6 @@ nav li #here {
 	color: #fff;
   margin: 0;
 }
-<<<<<<< HEAD
 .group .submit {
     padding: 1em;
 }
@@ -106,11 +107,8 @@ nav li #here {
     max-width: 50%;
     min-width: 50%;
     margin: 0 auto;
-=======
-.submit {
-  padding: 1em;
 }
-.sub{
+.group .sub{
   max-width: 50%;
   min-width: 50%;
   margin: 0 auto;
@@ -126,7 +124,21 @@ nav li #here {
 	background-color: #62bfb9;
 }
 
-/***********Form myndir*************/
+  /* ********* Myndir ********* */
+
+.mynd-preview-group {
+  margin: 0 auto;
+  height: 90%;
+  width: 50%;
+}
+.mynd-preview {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  height: 50%;
+}
+
+/* Form */
 
 .myndform h1{
 	font-size: 2.5em;
@@ -174,7 +186,7 @@ nav li #here {
     background-color: #4a4444;
 }
 
-/*48 em og yfir*/
+/*  48 em og yfir  */
 
 @media screen and (min-width: 48em) {
     .myndform{

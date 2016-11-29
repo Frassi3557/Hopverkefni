@@ -8,7 +8,7 @@
     ?>
 </head>
 <body>
-  <?php require($_SERVER['DOCUMENT_ROOT'] . "/2T/0506992429/hopverkefni/includes/header.php"); ?>
+  <?php require($_SERVER['DOCUMENT_ROOT'] . "/2T/1811992029/hopverkefni/includes/header.php"); ?>
   <form action="includes/json_baeta.php" method="post">
     <div class="group">
       <h1><input type="text" name="ordtak" placeholder="Orðtak" required></h1>
