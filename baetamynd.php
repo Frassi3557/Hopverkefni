@@ -12,13 +12,13 @@
   <?php require($_SERVER['DOCUMENT_ROOT'] . "/2T/0506992429/hopverkefni/includes/header.php"); ?>
     <div class="myndform">
         <h1>Endilega bættu við mynd í myndasafnið.</h1>
-        <form action="json_baeta_mynd.php" method="post">
+        <form action="process.php" method="post">
             <fieldset>
                 <label for="mname">Nafn á mynd</label>
                 <input type="text" id="mname" name="myndNafn" required>
 
                 <label for="url">URL á mynd</label>
-                <input type="text" id="url" name="myndaslod" required>
+                <input type="text" id="url" name="url" required>
 
                 <br><br>
 

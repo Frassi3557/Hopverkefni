@@ -81,27 +81,27 @@ nav li #here {
 
 /*  Form  */
 
-textarea,
-input{
+.group textarea,
+.group input{
 	max-width: 80%;
 	min-width: 80%;
 	text-align: center;
 	border: 1px solid #1c1c1c;
 	background-color: #efefef;
 }
-input {
+.group input {
   margin-bottom: 1em;
 }
-h1 input {
+.group h1 input {
 	border: 1px solid #fff;
 	background-color: #1c1c1c;
 	color: #fff;
   margin: 0;
 }
-.submit {
+.group .submit {
     padding: 1em;
 }
-.sub{
+.group .sub{
     max-width: 50%;
     min-width: 50%;
     margin: 0 auto;
@@ -113,7 +113,7 @@ h1 input {
 	font-family: 'Open Sans', sans-serif;
 	font-variant: small-caps;
 }
-.sub:hover {
+.group .sub:hover {
 	background-color: #62bfb9;
 }
 
@@ -132,7 +132,7 @@ h1 input {
 	font-size: 1.7em;
     border-radius: 5px;
 }
-input[type=text]{
+.myndform input[type=text]{
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -145,11 +145,11 @@ input[type=text]{
     outline: none;
     transition: border 0.5s ease;
 }
-input[type=text]:focus{
+.myndform input[type=text]:focus{
     border: 3px solid black;
     transition: border 0.5s ease;
 }
-input[type=submit] {
+.myndform input[type=submit] {
     width: 100%;
     background-color: black;
     color: white;
@@ -161,14 +161,14 @@ input[type=submit] {
     font-family: 'Montserrat', sans-serif;
     font-size: 1em;
 }
-input[type=submit]:active {
+.myndform input[type=submit]:active {
     background-color: #4a4444;
 }
+
 /*48 em og yfir*/
 
 @media screen and (min-width: 48em) {
-    /***Form Myndir*****/
-    .askrift{
+    .myndform{
         max-width: 80%;
         margin: 0 auto;
     }
