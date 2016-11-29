@@ -96,9 +96,8 @@ nav li #here {
 	border: 1px solid #fff;
 	background-color: #1c1c1c;
 	color: #fff;
-  margin: 0;
+    margin: 0;
 }
-<<<<<<< HEAD
 .group .submit {
     padding: 1em;
 }
@@ -106,7 +105,7 @@ nav li #here {
     max-width: 50%;
     min-width: 50%;
     margin: 0 auto;
-=======
+}
 .submit {
   padding: 1em;
 }

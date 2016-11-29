@@ -1,14 +1,9 @@
 <html>
   <head>
-<<<<<<< HEAD
     <?php require($_SERVER['DOCUMENT_ROOT'] . "/2t/1811992029/hopverkefni/includes/title.php"); ?>
     <title><?php echo "{$title}"; ?></title>
-    <?php
-      require($_SERVER['DOCUMENT_ROOT'] . "/2T/0506992429/hopverkefni/includes/head.php");
-=======
-    <?php require($_SERVER['DOCUMENT_ROOT'] . "/2t/1811992029/hopverkefni/includes/title.php");
+    <?php 
           require($_SERVER['DOCUMENT_ROOT'] . "/2T/0506992429/hopverkefni/includes/head.php");
->>>>>>> bad688ec81dbf553d537aaceebf4dea4519c855a
     ?>
     <title><?php echo "{$title}"; ?></title>
   </head>
