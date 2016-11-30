@@ -181,6 +181,14 @@ nav li #here {
   background-color: #62bfb9;
 }
 
+.upload {
+  display: block;
+  margin: 0 auto;
+  background-color: #1c1c1c;
+  width: 50%;
+}
+
+
 /*  48 em og yfir  */
 
 @media screen and (min-width: 48em) {

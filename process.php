@@ -10,15 +10,15 @@
     <?php require($_SERVER['DOCUMENT_ROOT'] . "/2T/1811992029/hopverkefni/includes/header.php");
       $url = "http://i.imgur.com/SM0p1x3.png" ?>
       <form action="process.php" method="post">
-        <label for="url">URL á mynd</label>
-        <input type="text" id="url" name="nafn" required>
-        
-        <br><br>
-        
-        <input type="submit" value="BIRTA">
+        <div class="upload">
+          <label for="url">Nafn</label>
+          <input class="nafn" type="text" name="nafn" required>
+          <img class="mynd-preview" src="<?= $url ?>">
+          <textarea class="description"></textarea>
+          <br><br>
+          <input type="submit" value="BIRTA">
+        </div>
       </form>
-      <div class="mynd-preview-group">
-        <img class="mynd-preview" src="<?= $url ?>">
-      </div>
+        
   </body>
 </html>
