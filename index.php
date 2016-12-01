@@ -3,8 +3,7 @@
     <?php require($_SERVER['DOCUMENT_ROOT'] . "/2t/1811992029/hopverkefni/includes/title.php"); ?>
     <title><?php echo "{$title}"; ?></title>
     <?php
-      require($_SERVER['DOCUMENT_ROOT'] . "/2T/1811992029/hopverkefni/includes/head.php");
-    ?>
+      require($_SERVER['DOCUMENT_ROOT'] . "/2T/1811992029/hopverkefni/includes/head.php"); ?>
     <title><?php echo "{$title}"; ?></title>
   </head>
   <body>
@@ -12,7 +11,7 @@
     <?php
       $string_json = file_get_contents('ordtok/ordtok.json');
         $json_ordtok = json_decode($string_json, true);
-        for ($x = 0; $x <= count($json_ordtok['ordtokFylki'])-1; $x++):
+        for ($x = count($json_ordtok['ordtokFylki'])-1; $x>=0; $x=$x-1):
     ?>
     <div class="group">
       <h1><?php echo ucfirst($json_ordtok['ordtokFylki'][$x]['ordtak']) ?></h1>

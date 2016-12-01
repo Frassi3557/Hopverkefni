@@ -7,3 +7,6 @@ if ($title == 'index') {
 if ($title == 'baeta') {
  $title = 'Bæta við orðtaki';
 }
+if ($title == 'baetamynd') {
+ $title = 'Bæta við mynd';
+}
