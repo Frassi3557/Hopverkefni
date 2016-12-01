@@ -14,12 +14,12 @@
         $json_myndir = json_decode($string_json, true);
         for ($x = count($json_myndir['myndirFylki'])-1; $x>=0; $x=$x-1):
         ?>
-        <div>
+        <div class="group">
           <h1><?php echo ucfirst($json_myndir['myndirFylki'][$x]['nafn']) ?></h1>
           <!-- Klasi sem heldur utan um upplýsingar um orðtakið -->
-          <div>
+          <div class="ordtak">
             <!-- Klasi sem heldur utan um útskýringuna á orðtakinu -->
-            <div>
+            <div class="utskyring">
               <img src="<?php echo ucfirst($json_myndir['myndirFylki'][$x]['url']) ?>">
             </div>
             <p><?php echo ucfirst($json_myndir['myndirFylki'][$x]['description']) ?></p>
