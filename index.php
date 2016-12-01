@@ -11,7 +11,8 @@
      <?php require($_SERVER['DOCUMENT_ROOT'] . "/2T/1811992029/hopverkefni/includes/header.php"); ?>
     <?php
       $string_json = file_get_contents('ordtok/ordtok.json');
-        $json_ordtok = json_decode($string_json, true);
+        $c = json_decode($string_json, true);
+        $json_ordtok = array_reverse($c);
         for ($x = 0; $x <= count($json_ordtok['ordtokFylki'])-1; $x++):
     ?>
     <div class="group">

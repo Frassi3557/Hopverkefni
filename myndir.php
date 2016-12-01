@@ -12,18 +12,18 @@
       <?php
       $string_json = file_get_contents('ordtok/myndir.json');
         $a = json_decode($string_json, true);
-        $json_ordtok = array_reverse($a);
-        for ($x = 0; $x <= count($json_ordtok['myndirFylki'])-1; $x++):
+        $json_myndir = array_reverse($a);
+        for ($x = count($json_myndir['myndirFylki'])-1; $x>=0; $x=$x-1):
         ?>
         <div>
-          <h1><?php echo ucfirst($json_ordtok['myndirFylki'][$x]['nafn']) ?></h1>
+          <h1><?php echo ucfirst($json_myndir['myndirFylki'][$x]['nafn']) ?></h1>
           <!-- Klasi sem heldur utan um upplýsingar um orðtakið -->
           <div>
             <!-- Klasi sem heldur utan um útskýringuna á orðtakinu -->
             <div>
-              <img src="<?php echo ucfirst($json_ordtok['myndirFylki'][$x]['url']) ?>">
+              <img src="<?php echo ucfirst($json_myndir['myndirFylki'][$x]['url']) ?>">
             </div>
-            <p><?php echo ucfirst($json_ordtok['myndirFylki'][$x]['description']) ?></p>
+            <p><?php echo ucfirst($json_myndir['myndirFylki'][$x]['description']) ?></p>
           </div>
         </div>
         <?php endfor; ?>
