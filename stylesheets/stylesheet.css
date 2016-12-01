@@ -98,13 +98,21 @@ nav li #here {
 	border: 1px solid #fff;
 	background-color: #1c1c1c;
 	color: #fff;
-  margin: 0;
+    margin: 0;
 }
 .group .submit {
     padding: 1em;
 }
 .group .sub{
   display: block;
+    max-width: 50%;
+    min-width: 50%;
+    margin: 0 auto;
+}
+.submit {
+  padding: 1em;
+}
+.sub{
   max-width: 50%;
   min-width: 50%;
   margin: 0 auto;
