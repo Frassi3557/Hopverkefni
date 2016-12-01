@@ -132,6 +132,9 @@ nav li #here {
 
 /* Form */
 
+.mynd-url {
+	display: none;
+}
 .myndform h1,
 .myndform input{
   font-family: 'Montserrat', sans-serif;
