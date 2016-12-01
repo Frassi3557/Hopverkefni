@@ -98,21 +98,13 @@ nav li #here {
 	border: 1px solid #fff;
 	background-color: #1c1c1c;
 	color: #fff;
-    margin: 0;
+  margin: 0;
 }
 .group .submit {
     padding: 1em;
 }
 .group .sub{
   display: block;
-    max-width: 50%;
-    min-width: 50%;
-    margin: 0 auto;
-}
-.submit {
-  padding: 1em;
-}
-.sub{
   max-width: 50%;
   min-width: 50%;
   margin: 0 auto;
@@ -136,12 +128,6 @@ nav li #here {
   width: 50%;
   background-color: #1c1c1c;
   border: 1px solid red;
-}
-.mynd-preview {
-  display: block;
-  margin: 0 auto;
-  width: 50%;
-  height: 50%;
 }
 
 /* Form */
@@ -168,6 +154,7 @@ nav li #here {
   width: 80%;
   margin: 0 auto;
   display: block;
+	color: #efefef;
   background-color: #4b4b4b;
   border: 1px solid #1c1c1c;
 }
@@ -193,7 +180,51 @@ nav li #here {
   display: block;
   margin: 0 auto;
   background-color: #1c1c1c;
+	border-radius: 3px;
   width: 50%;
+	padding: 1em;
+	font-family: 'Open Sans', sans-serif;
+}
+.upload .nafn {
+	padding: .5em;
+  width: 80%;
+  margin: 0 auto;
+  display: block;
+	color: #efefef;
+  background-color: #4b4b4b;
+  border: 1px solid #1c1c1c;
+	text-align: center;
+}
+.mynd-preview {
+	display: block;
+  margin: 0 auto;
+	padding: 1em;
+  width: 50%;
+  height: 50%;
+}
+.upload textarea {
+	display: block;
+	max-width: 80%;
+	min-width: 80%;
+	min-height: 5em;
+	border: 1px solid #1c1c1c;
+	color: #efefef;
+	background-color: #4b4b4b;
+	margin: 0 auto;
+}
+.upload .sub {
+	display: block;
+  padding: 1em;
+  max-width: 50%;
+  min-width: 50%;
+  margin: 0 auto;
+	border: none;
+	border-radius: 2px;
+	background-color: #28a89f;
+	color: #fff;
+	font-size: 1.5em;
+	font-family: 'Open Sans', sans-serif;
+	font-variant: small-caps;
 }
 
 
