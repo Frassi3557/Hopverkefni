@@ -14,7 +14,6 @@
         <form action="process.php" method="post">
             <fieldset>
                 <input class="url" type="text" name="url" required placeholder="Slóð á myndina">
-
                 <br><br>
 
                 <input class="sub" type="submit" value="ÁFRAM">
