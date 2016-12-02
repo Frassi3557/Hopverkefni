@@ -200,7 +200,7 @@ nav li #here {
   font-family: 'Open Sans', sans-serif;
 }
 .upload h1 {
-  padding: 1em;
+  padding: .5em;
   margin: 0;
 }
 .upload .nafn {
@@ -215,9 +215,7 @@ nav li #here {
 .mynd-preview {
   display: block;
   margin: 0 auto;
-  padding: 1em;
-  width: 50%;
-  height: 50%;
+  width: 100%;
 }
 .upload textarea {
 	display: block;
@@ -227,6 +225,7 @@ nav li #here {
 	border: 1px solid #1c1c1c;
 	background-color: #efefef;
 	margin: 0 auto;
+  margin-top: 1em;
 }
 .upload .sub {
 	display: block;
