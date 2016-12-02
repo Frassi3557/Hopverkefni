@@ -110,8 +110,7 @@ nav li #here {
 }
 .group .sub{
   display: block;
-  max-width: 50%;
-  min-width: 50%;
+  width: 90%;
   margin: 0 auto;
 	border: none;
 	border-radius: 2px;
@@ -149,7 +148,7 @@ nav li #here {
 	background-color: #1c1c1c;
 }
 .myndform fieldset{
-  width: 30%;
+  width: 100%;
 	border: 1px solid #1C1C1C;
   border-radius: 2px;
 	background-color: #1C1C1C;
@@ -246,8 +245,15 @@ nav li #here {
 /*  48 em og yfir  */
 
 @media screen and (min-width: 48em) {
-    .myndform{
+  .group .sub {
+    max-width: 50%;
+    min-width: 50%;
+  }  
+  .myndform{
         max-width: 50%;
         margin: 0 auto;
     }
+  .myndform fieldset {
+    width: 30%;
+  }
 }
