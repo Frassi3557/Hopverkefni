@@ -2,7 +2,7 @@
     <?php $currentPage = basename($_SERVER['SCRIPT_FILENAME']); ?>
     <div>
         <input class="input1" type="checkbox" id="toggle">
-        <label class="checkbox" for="toggle">&#9776; Menu</label>
+        <label class="checkbox" for="toggle">&#9776; Efnisyfirlit</label>
         <nav class="menu">
             <ul class="topmenu">
                 <a href="index.php"<?php if ($currentPage == 'index.php') {echo 'id="here"';}?>><li>Orðtök</li></a>
