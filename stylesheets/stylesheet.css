@@ -49,34 +49,33 @@ header{
   font-family: 'Open Sans', sans-serif;
 }
 .topmenu {
-    margin: 0;
-    padding: 0;
-    text-align: left;
-    background-color: #ffba00;
-    padding-left: 0;
-    display: flex;
-    flex-direction: column;
-    font-family: 'Open Sans', sans-serif;
-  }
-  .topmenu li {
-    list-style-type: none;
-    padding: .6em 1em;
-    font-size: 1.5em;
-    text-align: center;
-    transition: background-color .2s ease; 
-    font-family: 'Open Sans', sans-serif;
-  }
-  .topmenu li{
-    color: #000000;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-family: 'Open Sans', sans-serif;
-  }
-  .topmenu li:active{
-    background-color: #000;
-    color: #fff;
-    font-family: 'Open Sans', sans-serif;
-  }
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  background-color: #1c1c1c;
+  padding-left: 0;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Open Sans', sans-serif;
+}
+.topmenu li {
+  list-style-type: none;
+  padding: .6em 1em;
+  font-size: 1.5em;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+.topmenu li{
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+}
+.topmenu li:active{
+  background-color: #28a89f;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+}
 
 
   /* ********* Orðtök ********* */
@@ -94,9 +93,9 @@ header{
 	padding-top: .5em;
 }
 .group img{
-    width: 100%;
-    margin: 0 auto;
-    padding-top: .5em;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: .5em;
 }
 .ordtak {
 	font-size: 1.2em;
@@ -271,55 +270,55 @@ header{
 
 /*  48 em og yfir  */
 
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 48em) 
+{
   .group .sub {
     max-width: 50%;
     min-width: 50%;
   }  
   .myndform{
-        max-width: 50%;
-        margin: 0 auto;
+    max-width: 50%;
+    margin: 0 auto;
     }
   .myndform fieldset {
     width: 30%;
-  }
-    .topmenu {
-        margin: 0;
-        padding: 0;
-        text-align: left;
-        background-color: #1c1c1c;
-        padding-left: 0;
-        display: flex;
-        flex-flow: row;
+    }
+  .topmenu {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    background-color: #1c1c1c;
+    padding-left: 0;
+    display: flex;
+    flex-flow: row;
     }
     .topmenu li{
-        color: #fff;
+      color: #fff;
     }
     .checkbox {
-        display: none;
+      display: none;
     }
     .menu{
-        height: auto;
-        transition: all 1s ease;
+      height: auto;
+      transition: all 1s ease;
     }
     .input1:checked ~ nav{
-        height: auto;
-        transition: all 1s ease;
+      height: auto;
+      transition: all 1s ease;
     }
     .topmenu a {
-        width: 25%;
+      width: 25%;
       height: auto;
     }
     .topmenu li{
-        transition: .5s;
+      transition: .5s;
     }
     .topmenu li:hover{
-        background-color: #28a89f;
-        transition: .5s;
+      background-color: #28a89f;
+      transition: .5s;
     }
     nav li #here {
-        background-color: #fff;
-        color: #000;
-        cursor: default;
+      background-color: #28a89f;
+      cursor: default;
     }
 }
