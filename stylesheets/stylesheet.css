@@ -275,7 +275,7 @@ header{
 /*  48 em og yfir  */
 
 @media screen and (min-width: 48em) 
-
+{
   .group .sub {
     max-width: 50%;
     min-width: 50%;
@@ -295,8 +295,6 @@ header{
         padding-left: 0;
         display: flex;
         flex-flow: row;
-    max-width: 50%;
-    margin: 0 auto;
     }
   .myndform fieldset {
     width: 30%;
@@ -327,8 +325,6 @@ header{
     .topmenu a {
         width: 25%;
         height: auto;
-      width: 25%;
-      height: auto;
     }
     .topmenu li{
       transition: .5s;
