@@ -23,4 +23,4 @@
     //encode back to json for storage
     $final_obj = json_encode($obj);
     file_put_contents('../ordtok/myndir.json', $final_obj);
-    header('Location:http://tsuts.tskoli.is/2t/0506992429/hopverkefni/myndir.php');
+    header('Location:http://tsuts.tskoli.is/2t/1811992029/hopverkefni/myndir.php');
