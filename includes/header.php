@@ -4,10 +4,10 @@
     <label class="checkbox" for="toggle">&#9776; Menu</label>
     <nav class="menu">
         <ul class="topmenu">
-            <li><a href="index.php"<?php if ($currentPage == 'index.php') {echo 'id="here"';}?>>Orðtök</a></li>
-            <li><a href="baeta.php"<?php if ($currentPage == 'baeta.php') {echo 'id="here"';}?>>Bæta við orðtaki</a></li>
-            <li><a href="myndir.php"<?php if ($currentPage == 'myndir.php') {echo 'id="here"';}?>>Myndir</a></li>
-            <li><a href="baetamynd.php"<?php if ($currentPage == 'baetamynd.php') {echo 'id="here"';}?>>Bæta við mynd</a></li>
+            <a href="index.php"<?php if ($currentPage == 'index.php') {echo 'id="here"';}?>><li>Orðtök</li></a>
+            <a href="baeta.php"<?php if ($currentPage == 'baeta.php') {echo 'id="here"';}?>><li>Bæta við orðtaki</li></a>
+            <a href="myndir.php"<?php if ($currentPage == 'myndir.php') {echo 'id="here"';}?>><li>Myndir</li></a>
+            <a href="baetamynd.php"<?php if ($currentPage == 'baetamynd.php') {echo 'id="here"';}?>><li>Bæta við mynd</li></a>
         </ul>
     </nav>
 </div>
