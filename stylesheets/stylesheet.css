@@ -7,12 +7,11 @@
 body {
 	padding-bottom: 1.3em;
   padding-top: 5em;
-	background: url('http://tsuts.tskoli.is/2t/0506992429/pictures/background_14.jpg');
+	background: url('http://tsuts.tskoli.is/2t/0506992429/pictures/background_14.jpg') top right no-repeat;
 	background-color: #000;
 	background-position: center;
 	background-attachment: fixed;
-	background-repeat: no-repeat;
-	background-size: 100%;
+	background-size: cover;
 }
 
 /*  Header  */
