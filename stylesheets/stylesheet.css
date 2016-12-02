@@ -288,6 +288,15 @@ header{
   .myndform fieldset {
     width: 30%;
   }
+  .topmenu {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    background-color: #000000;
+    padding-left: 0;
+    display: flex;
+    flex-flow: row;
+  }
   .myndform fieldset {
     width: 30%;
   }
@@ -317,8 +326,6 @@ header{
   .topmenu a {
     width: 25%;
     height: auto;
-    width: 25%;
-    height: auto;
   }
   .topmenu li{
     transition: .5s;
@@ -331,32 +338,4 @@ header{
     width: 50%;
     max-width: 35em;
 }
-=======
-    }
-    .topmenu li{
-      color: #fff;
-    }
-    .checkbox {
-      display: none;
-    }
-    .menu{
-      height: auto;
-      transition: all 1s ease;
-    }
-    .input1:checked ~ nav{
-      height: auto;
-      transition: all 1s ease;
-    }
-    .topmenu a {
-        width: 25%;
-        height: auto;
-    }
-    .topmenu li{
-      transition: .5s;
-    }
-    .topmenu li:hover{
-      background-color: #28a89f;
-      transition: .5s;
-    }
->>>>>>> ce181dd959392be2740c80999a83f5291fa97674
 }
