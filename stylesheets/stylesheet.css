@@ -69,6 +69,7 @@ nav li #here {
 .group img{
     width: 100%;
     margin: 0 auto;
+    padding-top: .5em;
 }
 .ordtak {
 	font-size: 1.2em;
