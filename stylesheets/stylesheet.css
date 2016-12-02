@@ -76,6 +76,10 @@ header{
   color: #fff;
   font-family: 'Open Sans', sans-serif;
 }
+#here {
+      background-color: #28a89f;
+      cursor: default;
+    }
 
 
   /* ********* Orðtök ********* */
@@ -316,9 +320,5 @@ header{
     .topmenu li:hover{
       background-color: #28a89f;
       transition: .5s;
-    }
-    nav li #here {
-      background-color: #28a89f;
-      cursor: default;
     }
 }
