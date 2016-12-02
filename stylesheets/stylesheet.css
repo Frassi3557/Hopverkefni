@@ -173,13 +173,13 @@ nav li #here {
   max-width: 50%;
   min-width: 50%;
   margin: 0 auto;
-	border: none;
-	border-radius: 2px;
-	background-color: #28a89f;
-	color: #fff;
-	font-size: 1.5em;
-	font-family: 'Open Sans', sans-serif;
-	font-variant: small-caps;
+  border: none;
+  border-radius: 2px;
+  background-color: #28a89f;
+  color: #fff;
+  font-size: 1.5em;
+  font-family: 'Open Sans', sans-serif;
+  font-variant: small-caps;
 }
 .myndform .sub:hover {
   background-color: #62bfb9;
@@ -189,25 +189,33 @@ nav li #here {
   display: block;
   margin: 0 auto;
   background-color: #1c1c1c;
-	border-radius: 3px;
+  border-radius: 3px;
   width: 50%;
-	padding: 1em;
-	font-family: 'Open Sans', sans-serif;
+  max-width: 35em;
+  font-family: 'Open Sans', sans-serif;
+}
+.whitebody {
+  padding: 1em;
+  background-color: #efefef;
+  font-family: 'Open Sans', sans-serif;
+}
+.upload h1 {
+  padding: 1em;
+  margin: 0;
 }
 .upload .nafn {
-	padding: .5em;
   width: 80%;
   margin: 0 auto;
   display: block;
-	color: #efefef;
-  background-color: #4b4b4b;
-  border: 1px solid #1c1c1c;
-	text-align: center;
+  color: #efefef;
+  background-color: #1c1c1c;
+  border: 1px solid #4b4b4b;
+  text-align: center;
 }
 .mynd-preview {
-	display: block;
+  display: block;
   margin: 0 auto;
-	padding: 1em;
+  padding: 1em;
   width: 50%;
   height: 50%;
 }
@@ -217,8 +225,7 @@ nav li #here {
 	min-width: 80%;
 	min-height: 5em;
 	border: 1px solid #1c1c1c;
-	color: #efefef;
-	background-color: #4b4b4b;
+	background-color: #efefef;
 	margin: 0 auto;
 }
 .upload .sub {

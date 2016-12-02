@@ -11,12 +11,14 @@
       $url = $_POST['url'] ?>
       <form action="includes/upload.php" method="post">
         <div class="upload">
-					<input class="mynd-url" name="url" value="<?= $url ?>">
-          <input class="nafn" type="text" name="nafn" required placeholder="Nafn / Titill">
-          <img class="mynd-preview" src="<?= $url ?>">
-          <textarea class="description" name="description" placeholder="Lýsing / nánari upplýsingar um myndina"></textarea>
-          <br><br>
-          <input class="sub" type="submit" value="birta mynd">
+		  <input class="mynd-url" name="url" value="<?= $url ?>">
+          <h1><input class="nafn" type="text" name="nafn" required placeholder="Nafn / Titill"></h1>
+            <div class="whitebody">          
+              <img class="mynd-preview" src="<?= $url ?>">
+              <textarea class="description" name="description" placeholder="Lýsing / nánari upplýsingar um myndina"></textarea>
+              <br><br>
+              <input class="sub" type="submit" value="birta mynd">
+            </div>
         </div>
       </form>
         
