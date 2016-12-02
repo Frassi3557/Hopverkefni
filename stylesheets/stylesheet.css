@@ -16,7 +16,12 @@ body {
 }
 
 /*  Header  */
-
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+}
 .input1{
   display: none;
 }
@@ -271,15 +276,15 @@ body {
         display: none;
     }
     .menu{
-        height: 3.59em;
+        height: 5em;
         transition: all 1s ease;
     }
     .input1:checked ~ nav{
-        height: 3.59em;;
+        height: 5em;
         transition: all 1s ease;
     }
     .topmenu a {
-        width: 20%;
+        width: 25%;
     }
     .topmenu li{
         transition: .5s;
