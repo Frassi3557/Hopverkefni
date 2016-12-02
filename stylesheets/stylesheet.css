@@ -17,40 +17,42 @@ body {
 
 /*  Header  */
 
-nav {
-  background-color: #1C1C1C;
-  position: fixed;
-  width: 100%;
-	height: 3.5em;
-	margin-top: -5.2em;
-	overflow: hidden;
+.input1{
+  display: none;
 }
-.header-nav {
-  width: 100%;
-  margin: 0 auto;
+.checkbox{
+  font-size: 2.3em;
+  cursor: pointer;
+    color: aqua;
 }
-nav li {
-	height: 3.5em;
-  border-right: 1px solid gray;
-  float: left;
-	padding-top: 1.25em;
+.input1:checked ~ nav{
+  height: 17.8em;
+  transition: all 1s ease;
 }
-nav li a {
-  color: #fff;
-	padding: 100%;
-  padding-left: 1em;
-  padding-right: 1em;
-	font-family: 'Open Sans', sans-serif;
+nav{
+  height: 0;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  transition: all 1s ease;
 }
-nav a:hover {
-  background-color: #46cfc1;
-  overflow: hidden
-}
-nav li #here {
-	background-color: #fff;
-	color: #000;
-	cursor: default;
-}
+.topmenu {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  padding-left: 0;
+  display: flex;
+  flex-direction: column;
+  }
+  .topmenu li {
+    list-style-type: none;
+    padding: .6em 1em;
+    font-size: 1.5em;
+    text-align: center;
+    transition: background-color .2s ease;
+      color: aqua;
+  }
+
 
   /* ********* Orðtök ********* */
 
@@ -242,5 +244,11 @@ nav li #here {
     .myndform{
         max-width: 50%;
         margin: 0 auto;
+    }
+    
+    nav li #here {
+        background-color: #fff;
+        color: #000;
+        cursor: default;
     }
 }
