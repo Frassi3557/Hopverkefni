@@ -335,7 +335,8 @@ header{
     transition: .5s;
   }
   .upload {
-    width: 50%;
+    min-width: 50%;
+    max-width: 50%;
     max-width: 35em;
 }
 }
